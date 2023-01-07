@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* header */
+.header {
+    color: rgb(74, 21, 219);
+    background-image: url(../images/donation0.jpg);
+    background-repeat: none;
+    background-size: 1300px;
+    width: 1300px;
+    height: 400px;
+    margin-left: 10px;
+}
+
+.header-container {
+    padding: 100px;
+    text-align: center;
+}
+
+.btn-primary {
+    height: 40px;
+    background: #d1150e;
+    border-radius: 5px;
+    font-weight: 700;
+    color: white;
+    font-size: 20px;
+    border: 0;
+    padding: 3px 20px;
+}
+
+.donate-today {
+    padding: 200px;
+    text-align: center;
+}
+
+.donate-today ul {
+    display: flex;
+
+}
+
+.donate-today li {
+    list-style: none;
+    padding: 30px 50px;
+    font-weight: 700px;
+    font-size: 18px;
+    background-color: lightgray;
+    margin: 20px;
+}
+
+
+.donate-input input[type="text"] {
+    border: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.donate-plan-main-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+    margin-bottom: 50px;
+}
+
+.donate-plan-main-subtitle {
+    padding: 0 100px;
+
+}
+
+.donate-plan-main-container {
+    display: flex;
+    margin-top: 100px;
+    gap: 20px;
+    padding: 0 100px;
+}
+
+.donate-plan-container1 {
+    background-color: rgb(124, 210, 236);
+    padding: 20px;
+}
+
+.donate-plan-container2 {
+    background-color: rgb(71, 236, 112);
+    padding: 20px;
+}
+
+.donate-plan-container3 {
+    background-color: rgb(240, 128, 212);
+    padding: 20px;
+}
+
+.process {
+    display: flex;
+    margin-top: 150px;
+    align-items: center;
+    padding: 0 100px;
+}
+
+.process .process-title {
+    margin-bottom: 30px;
+}
+
+.process img {
+    width: 450px;
+}
+
+.process-para {
+    padding: 0 50px 30px 0;
+}
+
+.survive {
+    display: flex;
+    margin-top: 150px;
+    align-items: center;
+    padding: 0 100px;
+    gap: 30px;
+}
+
+.survive img {
+    border-radius: 50%;
+    width: 450px;
+}
+
+.survive .survive-title {
+    margin-bottom: 30px;
+}
+
+.survive-para {
+    padding: 0 10px 30px 0;
+}
+
+.update-title{
+    margin-top: 130px;
+    text-align: center;
+}
+
+.update-para{
+    padding: 20px 100px 50px 100px;
+}
+.update .update-form{
+    text-align: center;
+    background-color: #f86762;
+    width: 700px;
+    height: 100px;
+    margin-left: 300px;
+}
+.update-form form{
+    border: 0;
+    padding: 50px 100px 150px 100px;
+    border-radius: 5px;
+}
+
+.footer{
+    background-color: #181818;
+    margin-top: 150px;
+}   
+.footer-title{
+    text-align: center;
+    padding: 20px;
+    color: #83211e;
+}
+.footer-subtitle{
+    text-align: center;
+    color:antiquewhite;
+    padding-bottom: 40px;
+}
